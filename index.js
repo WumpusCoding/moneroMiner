@@ -1,13 +1,6 @@
 const config = require('./config.json');
 const CoinHive = require('coin-hive');
 
-const express = require('express')
-const app = express()
-
-app.get('/', (req, res) => res.send('<center><h1>It Works!</h1></center>'))
-
-app.listen(3000, () => console.log('Webserver running on port 3000!'))
-
 (async () => {
 
   // Create miner
